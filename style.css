@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+  background-image: url(/img/16.jpg);
+  /* color: rgb(255, 251, 0);
+  font-size: 80px; */
+  text-shadow: 10px 10px #000000;
+}
+
+.header h1 {
+  font-size: 80px;
+  bottom: 5px;
+  border: 10px solid rgb(255, 248, 248);
+  color: gold;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(40, 37, 37);
+}
+
+.navbar a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 20%;
+  background-color: rgb(0, 0, 0);
+}
+
+.hot {
+  text-align: center;
+  color: #070000;
+  bottom: 10px;
+  border: 10px solid rgb(255, 255, 255);
+  margin: 5px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.side-bar {
+  flex: 20%;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.side-bar img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.main {
+  flex: 80%;
+  background-color: white;
+  padding: 35px;
+  background-color: rgb(255, 255, 255);
+}
+
+.main h2 {
+  font-size: 4rem;
+  padding-top: 1px;
+}
+
+.main-img img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 25px;
+  margin: 1px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+
+  .main {
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(/img/16.jpg);
+    color: white;
+    font-size: 20px;
+  }
+
+  .header h1 {
+    font-size: 25px;
+    bottom: 5px;
+    border: 3px solid rgb(255, 248, 248);
+    color: gold;
+  }
+}
+
+.detail {
+  font-size: 12px;
+  padding: 10px 30px;
+  background: #000000;
+  border: none;
+  margin: 20px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  /* margin-left: 500px; */
+}
+
+.footer {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+}

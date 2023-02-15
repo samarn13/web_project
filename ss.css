@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+.navbar {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.card img {
+  height: 350px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.popular-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgb(0, 0, 0);
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.card-name {
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+}
+
+.paggo {
+  display: inline-block;
+  left: 50px;
+}
+
+.paggo a {
+  color: black;
+  left: 50px;
+  padding: 8px 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pagination {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: #000000;
+  color: white;
+}

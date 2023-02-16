@@ -29,6 +29,13 @@ body {
   background-color: white;
   color: black;
 }
+
+@media screen and (max-width: 400px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
 .bt-more {
   padding: 10px 30px;
   background: #ffffff;
@@ -49,7 +56,7 @@ header {
 }
 
 .content-container {
-  margin-left: 6rem;
+  margin-left: 2rem;
 }
 
 .header-main {
@@ -77,27 +84,6 @@ header {
   margin-top: -3rem;
   letter-spacing: 4px;
   color: wheat;
-}
-
-@media screen and (max-width: 600px) {
-  .p1 {
-    font-size: 20%;
-    letter-spacing: 4px;
-    color: #ffffff;
-  }
-
-  .p2 {
-    font-size: 50%;
-    margin-top: 3px;
-    color: gold;
-  }
-
-  .p3 {
-    font-size: 4rem;
-    margin-top: -3rem;
-    letter-spacing: 4px;
-    color: wheat;
-  }
 }
 
 .detail-head {
@@ -142,11 +128,9 @@ header {
 }
 
 .head-popular {
-  color: #ffffff;
-  font-size: 4rem;
-  margin-top: 3rem;
+  color: gold;
+  margin-top: 3%;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .popular-container {
@@ -164,9 +148,9 @@ header {
 
 .card-name {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fcf8b0;
 }
 
 .card img {
@@ -181,4 +165,37 @@ header {
   box-shadow: 0 2px 20px rgb(0, 0, 0);
   overflow: hidden;
   color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 400px) {
+  .p1 {
+    font-size: 20%;
+    letter-spacing: 4px;
+    color: #ffffff;
+  }
+
+  .p2 {
+    font-size: 50%;
+    margin-top: 3px;
+    color: gold;
+  }
+
+  .p3 {
+    font-size: 4rem;
+    margin-top: -3rem;
+    letter-spacing: 4px;
+    color: wheat;
+  }
+
+  .img-container1 {
+    display: none;
+  }
+
+  .img-container2 {
+    display: none;
+  }
+
+  .card-name {
+    font-size: 25px;
+  }
 }

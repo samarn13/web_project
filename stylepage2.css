@@ -12,7 +12,7 @@ body {
 .header {
   padding: 150px;
   text-align: center;
-  background-image: url(/img/16.jpg);
+  background-image: url(/img/30.jpg);
   /* color: rgb(255, 251, 0);
   font-size: 80px; */
   text-shadow: 10px 10px #000000;
@@ -86,13 +86,14 @@ body {
 .main h2 {
   font-size: 4rem;
   padding-top: 1px;
+  text-shadow: 3px 5px #636262;
 }
 
 .main-img img {
-  height: 300px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid rgb(107, 107, 91);
 }
 
 .main-title {

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.name-bar {
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  margin: 10px;
+  border: 2px solid rgb(87, 87, 87);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.box1 {
+  padding: 100px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.container {
+  padding: 0px 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10%;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 80%;
+    display: block;
+  }
+
+  img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.footer {
+  background-color: #000;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}

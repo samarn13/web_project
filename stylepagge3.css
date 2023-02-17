@@ -102,8 +102,8 @@ img {
 
 @media screen and (max-width: 400px) {
   .column {
+    margin-left: 10%;
     width: 80%;
-    display: block;
   }
 
   img {

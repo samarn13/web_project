@@ -26,10 +26,43 @@ body {
   color: black;
 }
 
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input {
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid #0b0101;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 20px 10px 40px;
+  margin: 10px;
+}
+
+::placeholder {
+  padding: 2px;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 400px) {
   .row,
   .navbar {
     flex-direction: column;
+  }
+
+  input {
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #0b0101;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 40px;
+    margin: 10px;
   }
 }
 
